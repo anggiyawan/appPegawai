@@ -1,0 +1,24 @@
+{
+  "name": "pegawai",
+  "version": "1.0.0",
+  "description": "## What is CodeIgniter?",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.3",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
+  }
+}

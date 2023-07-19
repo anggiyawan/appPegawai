@@ -1,0 +1,404 @@
+ERROR - 2023-07-18 23:42:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-18 23:43:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-18 23:46:08 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-18 23:46:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-18 23:47:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user'@'localhost' to database 'app_management' in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'user', Object(SensitiveParameterValue), 'app_management', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for **** '****'@'localhost' to database 'app_management' in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-18 23:48:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user'@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'user', Object(SensitiveParameterValue), 'app_management', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for **** '****'@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-18 23:48:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user'@'localhost' to database 'app_management' in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'user', Object(SensitiveParameterValue), 'app_management', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for **** '****'@'localhost' to database 'app_management' in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2023-07-18 23:49:54 --> Class "CodeIgniter\Database\MySQL\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('MySQL', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('default', true)
+ 4 SYSTEMPATH\Database\MigrationRunner.php(151): db_connect(null)
+ 5 SYSTEMPATH\Config\Services.php(411): CodeIgniter\Database\MigrationRunner->__construct(null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 8 SYSTEMPATH\Config\Services.php(406): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 9 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations()
+10 SYSTEMPATH\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+11 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', [])
+13 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2023-07-18 23:49:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user'@'localhost' to database 'app_management' in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'user', Object(SensitiveParameterValue), 'app_management', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for **** '****'@'localhost' to database 'app_management' in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-18 23:53:40 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-18 23:55:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-18 23:55:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-18 23:55:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-18 23:55:49 --> mysqli_sql_exception: Table 'user' already exists in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\pegawai\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\pegawai\app\Database\Migrations\2023-07-18-233730_User.php(45): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(877): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-07-18 23:57:51 --> Constant expression contains invalid operations
+in APPPATH\Config\Database.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-18 23:57:57 --> Constant expression contains invalid operations
+in APPPATH\Config\Database.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-18 23:58:22 --> Constant expression contains invalid operations
+in APPPATH\Config\Database.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-18 23:59:07 --> Undefined constant "Config\ENV"
+in SYSTEMPATH\Config\Factories.php on line 113.
+ 1 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 2 SYSTEMPATH\Database\MigrationRunner.php(145): config('Database')
+ 3 SYSTEMPATH\Config\Services.php(411): CodeIgniter\Database\MigrationRunner->__construct(Object(Config\Migrations), null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 6 SYSTEMPATH\Config\Services.php(406): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations()
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+ 9 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run([])
+10 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', [])
+11 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-07-18 23:59:24 --> Constant expression contains invalid operations
+in APPPATH\Config\Database.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-07-18 23:59:39 --> mysqli_sql_exception: Table 'user' already exists in C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pegawai\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\pegawai\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\pegawai\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\pegawai\app\Database\Migrations\2023-07-18-233730_User.php(45): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(877): App\Database\Migrations\User->up()
+#6 C:\xampp\htdocs\pegawai\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\pegawai\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\pegawai\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\pegawai\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\pegawai\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
